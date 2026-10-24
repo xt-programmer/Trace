@@ -1,0 +1,28 @@
+# Build output and local macOS metadata
+.build/
+Build/
+build/
+.swiftpm/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.mobileprovision
+credentials.json
+secrets.json
+.netrc
+
+# Local reports and inspected sample files
+Training/
+reports/
+*.log
+.vscode/
+.idea/
